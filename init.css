@@ -1,0 +1,11 @@
+/* contains browser de-styling & uniformity functionality */
+* {
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-back);
+    color:            var(--color-text);
+}
