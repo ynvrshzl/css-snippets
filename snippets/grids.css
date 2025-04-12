@@ -1,15 +1,14 @@
-/* @copyright March 2025 hazldev */
+/* 
 
-/* @readme
+<table class="grid"/> 
 
-# table grid
-This snippet turns an HTML table into a grid layout. 
-Great for carousel images or side-by-side content.
-Looks great on all devices 
+* This snippet turns an HTML table into a grid layout. 
+* Great for carousel images or side-by-side content.
+* Looks great on all devices.
 
-# HTML syntax
-<table class="grid"/> */
+*/
 
+/* grid variables */
 :root {
     --grid-corner-curves: 10px;
     --grid-padding: 5px;
@@ -18,6 +17,7 @@ Looks great on all devices
     --grid-image-aspect-ratio: 16/7;
 }
 
+/* actual grid settings */
 table.grid tbody {
 
     display: grid;
@@ -27,6 +27,7 @@ table.grid tbody {
 
 }
 
+/* table rows (individual grid cards) */
 table.grid>tbody>tr {
     display: flex;
     flex-direction: column;
@@ -36,6 +37,7 @@ table.grid>tbody>tr {
     overflow: hidden;
 }
 
+/* images */
 table.grid>tbody img {
     width: 100%;
     object-fit: cover;

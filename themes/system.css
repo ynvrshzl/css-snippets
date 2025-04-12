@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) 
+{
+    :root 
+    {
+        --color-accent:     dodgerblue;
+        --color-accent-ghost: color-mix(in srgb, transparent 50%, var(--color-accent));
+    }
+}
