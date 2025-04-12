@@ -1,0 +1,60 @@
+:root {
+    --color-accent: dodgerblue;
+    --color-accent-1: color-mix(in srgb, dodgerblue, var(--color-text) 25%);
+    --color-accent-faint: color-mix(in srgb, dodgerblue, transparent 85%);
+    --color-text-faint: color-mix(in srgb, var(--color-text), transparent 75%);
+    --color-text: white;
+    --color-background: hsl(0, 0%, 15%);
+}
+
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter';
+    line-height: 1.5;
+    background: var(--color-background);
+    color: white;
+    font-size: 0.9em;
+}
+
+button {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: var(--color-text);
+    background: var(--color-accent-1);
+
+    /* background: transparent;
+    border: 1px solid var(--color-text-faint); */
+}
+
+a {
+    color: var(--color-accent)
+}
+
+a:hover {
+    background-color: var(--color-accent-faint);
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 25px #00000099; */
+}
+
+input {
+    background: var(--color-background);
+    appearance: none;
+    border: none;
+    color: var(--color-text)
+}
+
+[contenteditable] {
+    outline: none;
+}
