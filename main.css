@@ -1,7 +1,117 @@
-@import url('./themes/system.css');
+/* import inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..800;1,100..800&display=swap');
 
-body 
-{
-    background-color: var(--color-back);
-    color:            var(--color-text);
+/* import icons */
+@import url('./utils/icons.css');
+
+
+/* (base) variables */
+:root {
+    --max-z-index: 9;
+    --article-padding: 50px;
+    --article-width: 400px;
+    --line-height: 1.7;
+    --font-family: 'Inter', Arial, Helvetica, sans-serif;
+    --color-background: hsl(0, 0%, 20%);
+    --color-accent: dodgerblue;
+    --color-text: white;
+
+}
+
+/* (inherited) variables */
+:root {
+    --color-background-alt: color-mix(in srgb, var(--color-text) 15%, var(--color-background));
+    --color-accent-muted: color-mix(in srgb, var(--color-accent), var(--color-text) 25%);
+    --color-accent-ghost: color-mix(in srgb, var(--color-accent), transparent 85%);
+    --color-text-ghost: color-mix(in srgb, var(--color-text), transparent 75%);
+    --color-border-faint: color-mix(in srgb, var(--color-background), var(--color-text) 5%);
+    --color-background-alt: color-mix(in srgb, var(--color-background), var(--color-text) 15%);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff22;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    border-radius: 5px;
+    width: 10px;
+    background: #00000022
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: var(--line-height);
+}
+
+button {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: var(--color-text);
+    background: var(--color-accent-muted);
+
+}
+
+a {
+    color: var(--color-accent)
+}
+
+a:hover {
+    background-color: var(--color-accent-ghost);
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 25px #00000099; */
+}
+
+input {
+    background: var(--color-background);
+    appearance: none;
+    border: none;
+    color: var(--color-text)
+}
+
+[contenteditable] {
+    outline: none;
+}
+
+
+h1,
+h2,
+h3 {
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 0;
+}
+
+::marker {
+    color: var(--color-text-faint)
+}
+
+button:hover,
+label:hover {
+    background: var(--color-accent-faint);
+    color: var(--color-accent);
+}
+
+label {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: var(--color-text);
+    background: var(--color-accent);
 }
