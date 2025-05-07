@@ -1,0 +1,28 @@
+button {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: var(--color-text);
+    background: var(--color-accent-muted);
+
+}
+
+button:hover,
+label:hover {
+    background: var(--color-accent-faint);
+    color: var(--color-accent);
+}
+
+label {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: var(--color-text);
+    background: var(--color-accent);
+}

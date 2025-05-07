@@ -1,8 +1,36 @@
-@media (prefers-color-scheme: dark) 
-{
-    :root 
-    {
-        --color-accent:     dodgerblue;
-        --color-accent-ghost: color-mix(in srgb, transparent 50%, var(--color-accent));
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+/* (base) variables */
+:root {
+    --max-z-index: 9999;
+    --line-height: 1.7;
+    --font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* (inherited) variables */
+:root {
+        --color-background-alt:    color-mix(in srgb, var(--color-text) 5%, var(--color-background));
+        --color-accent-muted:      color-mix(in srgb, var(--color-accent), var(--color-text) 25%);
+        --color-accent-ghost:      color-mix(in srgb, var(--color-accent), transparent 85%);
+        --color-text-ghost:        color-mix(in srgb, var(--color-text), transparent 75%);
+        --color-border-faint:      color-mix(in srgb, var(--color-background), var(--color-text) 5%);
+        --color-background-alt:    color-mix(in srgb, var(--color-background), var(--color-text) 15%);
+}
+
+/* set base variables here */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: hsl(0, 0%, 15%);
+        --color-text: rgb(196, 196, 196);
+        --color-accent: rgb(198, 75, 255);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-background: white;
+        --color-text: rgb(24, 24, 24);
+        --color-accent: dodgerblue;
     }
 }

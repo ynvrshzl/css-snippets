@@ -1,7 +1,30 @@
-a {
-    color: var(--color-accent);
+/* stylize links that have no href (unlinked) */
+a[href=""]
+{
+    opacity: 0.3;
+    pointer-events: none;
 }
-a::after {
+a 
+{
+    color: color-mix(in srgb, var(--color-accent) 75%, white);
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    color: color-mix(in srgb, var(--color-accent) 25%, white);
+    background-color: var(--color-accent-ghost);
+}
+
+a:focus 
+{
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
+    border-radius: 5px;
+    outline-offset: 3px;
+}
+a::after 
+{
     content: " ";
     display: inline-block;
     height: 1em;

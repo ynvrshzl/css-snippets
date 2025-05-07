@@ -1,0 +1,6 @@
+input {
+    background: var(--color-background);
+    appearance: none;
+    border: none;
+    color: var(--color-text)
+}

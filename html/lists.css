@@ -1,0 +1,11 @@
+
+/* sets the list style color. bullet points, numbers etc. */
+::marker 
+{
+    color: color-mix(in srgb, var(--color-text) 20%, transparent);
+}
+ul 
+{
+    list-style: square;
+    /* list-style-type: circle; */
+}

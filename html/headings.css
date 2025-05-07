@@ -1,0 +1,9 @@
+h1, h2, h3, h4, h5, h6 
+{
+    line-height: 1;
+    font-weight: 500;
+    color: color-mix(in srgb, var(--color-text) 30%, transparent);
+}
+h1 {
+    font-size: 2em;
+}
