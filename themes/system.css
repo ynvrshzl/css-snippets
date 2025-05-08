@@ -1,3 +1,5 @@
+/* this is a css theme. try to use only variables. don't modify specific elements, becuase users should be able to switch these out without leaving stylized artifacts!! */
+/* default system theme. includes support for light & dark system modes. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..800;1,100..800&display=swap');
 
 
