@@ -2,6 +2,12 @@
 @import url('./utils/cleanup.css');
 @import url('./html/links.css');
 @import url('./html/scrollbars.css');
+@import url('./html/buttons.css');
+@import url('./html/headings.css');
+@import url('./html/img.css');
+@import url('./html/input.css');
+@import url('./html/lists.css');
+@import url('./html/text-selection.css');
 @import url('./utils/icons.css');
 @import url('./snippets/grids.css');
 @import url('./themes/system.css');
