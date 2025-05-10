@@ -2,10 +2,11 @@
 My personal CSS snippets, **crafted with patience, utility & lot's of love!**
 
 # Use it in your own projects
-You can use these in your projects with a CDN provider. Example:
+You can use these in your projects with the github.io link:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ynvrshzl/css-snippets/main.css">
+<link rel="stylesheet" href="https://ynvrshzl.github.io/css-snippets/main.css">
 ```
+
 
 Becuase this is modular, utility-first CSS, these were designed to be as lightweight as possible, while being modular. You can import any of the stylesheets & also use specific setups in your work.
 
