@@ -58,7 +58,7 @@ table.grid>tbody>tr>td:not(:first-child):not(:nth-child(2)) {
 /* helper classes */
 .grid-images-portrait
 {
-    --grid-image-aspect-ratio: 1/2;
+    --grid-image-aspect-ratio: 1/1.4;
 }
 .grid-images-square
 {
