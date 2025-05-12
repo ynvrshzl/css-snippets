@@ -55,3 +55,16 @@ table.grid>tbody>tr>td:not(:first-child):not(:nth-child(2)) {
     opacity: 0.4;
 }
 
+/* helper classes */
+.grid-images-portrait
+{
+    --grid-image-aspect-ratio: 1/2;
+}
+.grid-images-square
+{
+    --grid-image-aspect-ratio: 1/1;
+}
+.grid-images-landscape
+{
+    --grid-image-aspect-ratio: 16/9;
+}
