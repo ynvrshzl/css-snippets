@@ -1,5 +1,7 @@
 /* imports */
 @import url('./utils/cleanup.css');
+
+/* html */
 @import url('./html/links.css');
 @import url('./html/scrollbars.css');
 @import url('./html/buttons.css');
@@ -8,15 +10,14 @@
 @import url('./html/input.css');
 @import url('./html/lists.css');
 @import url('./html/text-selection.css');
+
+/* utils, snippets & themes */
 @import url('./utils/icons.css');
+@import url('./snippets/pseudo-placeholders.css');
 @import url('./snippets/grids.css');
 @import url('./themes/system.css');
-@import url('./snippets/pseudo-placeholders.css');
 
-html, body
-{
-    scroll-behavior: smooth;
-}
+/* setting variables for html */
 
 body 
 {
