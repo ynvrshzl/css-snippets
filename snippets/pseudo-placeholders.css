@@ -1,0 +1,27 @@
+/** pseudo placeholders for editable elements */
+h1:has(br:only-of-type)::before,
+h1:empty::before,
+[contenteditable]:empty::before,
+[contenteditable]:has(br)::before
+{
+    display: inline-block;
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    opacity: 0.1;
+    pointer-events: none;
+}
+[contenteditable]:empty::before,
+[contenteditable]:has(>br)::before
+{
+    content: "Line"
+}
+h1[contenteditable]:has(br:only-of-type)::before,
+h1[contenteditable]:empty::before
+{
+    content: "Title"
+}
+
+h1:has(br)::after {
+    display: none;
+}

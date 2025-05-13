@@ -11,6 +11,7 @@
 @import url('./utils/icons.css');
 @import url('./snippets/grids.css');
 @import url('./themes/system.css');
+@import url('./snippets/pseudo-placeholders.css');
 
 html, body
 {
