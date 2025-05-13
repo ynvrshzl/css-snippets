@@ -1,0 +1,34 @@
+/* this is a css theme. try to use only variables. don't modify specific elements, becuase users should be able to switch these out without leaving stylized artifacts!! */
+
+/* (base) variables */
+:root {
+    --line-height: 1.7;
+    --font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+/* set base variables here */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: hsl(245, 9%, 25%);
+        --color-text: rgb(224, 229, 255);
+        --color-accent: rgb(76, 94, 255);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-background: white;
+        --color-text: rgb(29, 28, 34);
+        --color-accent: rgb(30, 71, 255);
+    }
+}
+
+/* (inherited) variables */
+:root {
+    --color-background-alt: color-mix(in srgb, var(--color-text) 5%, var(--color-background));
+    --color-accent-muted: color-mix(in srgb, var(--color-accent), var(--color-text) 25%);
+    --color-accent-ghost: color-mix(in srgb, var(--color-accent), transparent 85%);
+    --color-text-ghost: color-mix(in srgb, var(--color-text), transparent 75%);
+    --color-border-faint: color-mix(in srgb, var(--color-background), var(--color-text) 5%);
+    --color-background-alt: color-mix(in srgb, var(--color-background), var(--color-text) 15%);
+}
