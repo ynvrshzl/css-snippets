@@ -50,10 +50,10 @@ table.grid>tbody>tr>td {
 }
 
 /* everything after the second title */
-table.grid>tbody>tr>td:not(:first-child):not(:nth-child(2)) {
+/* table.grid>tbody>tr>td:not(:first-child):not(:nth-child(2)) {
     font-size: 0.75em;
     opacity: 0.4;
-}
+} */
 
 /* helper classes */
 .grid-images-portrait
