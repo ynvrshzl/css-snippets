@@ -79,70 +79,70 @@ i.globe::after {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-image: var(--icon-globe);
 }
-.icon-folder::after {
+i.folder::after {
     content: "";
     mask-image: var(--icon-folder);
     -webkit-mask-image: var(--icon-folder);
     background-color: currentColor;
 }
 
-.icon-search::after {
+i.search::after {
     content: "";
     mask-image: var(--icon-search);
     -webkit-mask-image: var(--icon-search);
     background-color: currentColor;
 }
 
-.icon-file::after {
+i.file::after {
     content: "";
     mask-image: var(--icon-file);
     -webkit-mask-image: var(--icon-file);
     background-color: currentColor;
 }
 
-.icon-command::after {
+i.command::after {
     content: "";
     mask-image: var(--icon-command);
     -webkit-mask-image: var(--icon-command);
     background-color: currentColor;
 }
 
-.icon-template::after {
+i.template::after {
     content: "";
     mask-image: var(--icon-template);
     -webkit-mask-image: var(--icon-template);
     background-color: currentColor;
 }
 
-.icon-merge::after {
+i.merge::after {
     content: "";
     mask-image: var(--icon-merge);
     -webkit-mask-image: var(--icon-merge);
     background-color: currentColor;
 }
 
-.icon-info::after {
+i.info::after {
     content: "";
     mask-image: var(--icon-info);
     -webkit-mask-image: var(--icon-info);
     background-color: currentColor;
 }
 
-.icon-list::after {
+i.list::after {
     content: "";
     mask-image: var(--icon-list);
     -webkit-mask-image: var(--icon-list);
     background-color: currentColor;
 }
 
-.icon-new::after {
+i.new::after {
     content: "";
     mask-image: var(--icon-new);
     -webkit-mask-image: var(--icon-new);
     background-color: currentColor;
 }
 
-.icon-arrow::after {
+i.arrow::after {
     content: "";
     mask-image: var(--icon-arrow);
     -webkit-mask-image: var(--icon-arrow);
