@@ -5,6 +5,11 @@
 
 ::-webkit-scrollbar {
     border-radius: 5px;
-    width: 10px;
-    background: var(--color-text-ghost);
+    background: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar {
+    /* width: 10px;
+    background: var(--color-text-ghost); */
 }
