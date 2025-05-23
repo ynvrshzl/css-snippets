@@ -1,3 +1,9 @@
+button:focus
+{
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
+    border-radius: 5px;
+    outline-offset: 3px;
+}
 button {
     cursor: pointer;
     appearance: none;
