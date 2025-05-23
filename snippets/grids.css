@@ -74,7 +74,13 @@ table.grid a {
     --grid-image-aspect-ratio: 16/9;
 }
 
-
+/* reset any icons on links */
+table.grid-images-as-covers a::after,
+table.grid-images-as-covers a::before
+{
+    content: "";
+    display: none;
+}
 
 table.grid-images-as-covers>tbody>tr {
     position: relative;
