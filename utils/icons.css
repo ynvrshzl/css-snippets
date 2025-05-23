@@ -1,7 +1,6 @@
 /* credit: these icons belong to https://lucide.dev */
 /* use these icons directly in your HTML with the <i> tag & classes */
 /* <i class="globe"></i> */
-
 :root {
     --color-icons: var(--color-text);
     --icon-folder: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWZvbGRlciI+PHBhdGggZD0iTTIwIDIwYTIgMiAwIDAgMCAyLTJWOGEyIDIgMCAwIDAtMi0yaC03LjlhMiAyIDAgMCAxLTEuNjktLjlMOS42IDMuOUEyIDIgMCAwIDAgNy45MyAzSDRhMiAyIDAgMCAwLTIgMnYxM2EyIDIgMCAwIDAgMiAyWiIvPjwvc3ZnPg==");
@@ -20,6 +19,7 @@
     --icon-link: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWV4dGVybmFsLWxpbmsiPjxwYXRoIGQ9Ik0xNSAzaDZ2NiIvPjxwYXRoIGQ9Ik0xMCAxNCAyMSAzIi8+PHBhdGggZD0iTTE4IDEzdjZhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJWOGEyIDIgMCAwIDEgMi0yaDYiLz48L3N2Zz4=");
     --icon-globe: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWVhcnRoLWljb24gbHVjaWRlLWVhcnRoIj48cGF0aCBkPSJNMjEuNTQgMTVIMTdhMiAyIDAgMCAwLTIgMnY0LjU0Ii8+PHBhdGggZD0iTTcgMy4zNFY1YTMgMyAwIDAgMCAzIDNhMiAyIDAgMCAxIDIgMmMwIDEuMS45IDIgMiAyYTIgMiAwIDAgMCAyLTJjMC0xLjEuOS0yIDItMmgzLjE3Ii8+PHBhdGggZD0iTTExIDIxLjk1VjE4YTIgMiAwIDAgMC0yLTJhMiAyIDAgMCAxLTItMnYtMWEyIDIgMCAwIDAtMi0ySDIuMDUiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjwvc3ZnPg==');
     --icon-home: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWhvdXNlLWljb24gbHVjaWRlLWhvdXNlIj48cGF0aCBkPSJNMTUgMjF2LThhMSAxIDAgMCAwLTEtMWgtNGExIDEgMCAwIDAtMSAxdjgiLz48cGF0aCBkPSJNMyAxMGEyIDIgMCAwIDEgLjcwOS0xLjUyOGw3LTUuOTk5YTIgMiAwIDAgMSAyLjU4MiAwbDcgNS45OTlBMiAyIDAgMCAxIDIxIDEwdjlhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJ6Ii8+PC9zdmc+');
+    --icon-cog: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvZy1pY29uIGx1Y2lkZS1jb2ciPjxwYXRoIGQ9Ik0xMiAyMGE4IDggMCAxIDAgMC0xNiA4IDggMCAwIDAgMCAxNloiLz48cGF0aCBkPSJNMTIgMTRhMiAyIDAgMSAwIDAtNCAyIDIgMCAwIDAgMCA0WiIvPjxwYXRoIGQ9Ik0xMiAydjIiLz48cGF0aCBkPSJNMTIgMjJ2LTIiLz48cGF0aCBkPSJtMTcgMjAuNjYtMS0xLjczIi8+PHBhdGggZD0iTTExIDEwLjI3IDcgMy4zNCIvPjxwYXRoIGQ9Im0yMC42NiAxNy0xLjczLTEiLz48cGF0aCBkPSJtMy4zNCA3IDEuNzMgMSIvPjxwYXRoIGQ9Ik0xNCAxMmg4Ii8+PHBhdGggZD0iTTIgMTJoMiIvPjxwYXRoIGQ9Im0yMC42NiA3LTEuNzMgMSIvPjxwYXRoIGQ9Im0zLjM0IDE3IDEuNzMtMSIvPjxwYXRoIGQ9Im0xNyAzLjM0LTEgMS43MyIvPjxwYXRoIGQ9Im0xMSAxMy43My00IDYuOTMiLz48L3N2Zz4=');
 }
 
 i::after {
@@ -41,9 +41,10 @@ i.image::after {
     -webkit-mask-image: var(--icon-image);
     mask-image: var(--image-icon);
 }
-i.house::after {
-    -webkit-mask-image: var(--icon-house);
-    mask-image: var(--icon-house);
+
+i.home::after {
+    -webkit-mask-image: var(--icon-home);
+    mask-image: var(--icon-home);
 }
 
 i.layout::after {
@@ -71,67 +72,68 @@ i.library::after {
 
 i.globe::after {
     -webkit-mask-image: var(--icon-globe);
-    mask-image: var(--icon-globe);    
+    mask-image: var(--icon-globe);
 }
+
 i.folder::after {
     mask-image: var(--icon-folder);
     -webkit-mask-image: var(--icon-folder);
 }
 
 i.search::after {
-    
+
     mask-image: var(--icon-search);
     -webkit-mask-image: var(--icon-search);
-    
+
 }
 
 i.file::after {
-    
+
     mask-image: var(--icon-file);
     -webkit-mask-image: var(--icon-file);
-    
+
 }
 
 i.command::after {
-    
+
     mask-image: var(--icon-command);
     -webkit-mask-image: var(--icon-command);
-    
+
 }
 
 i.template::after {
-    
+
     mask-image: var(--icon-template);
     -webkit-mask-image: var(--icon-template);
-    
+
 }
 
 i.merge::after {
-    
+
     mask-image: var(--icon-merge);
     -webkit-mask-image: var(--icon-merge);
-    
+
 }
 
 i.info::after {
-    
+
     mask-image: var(--icon-info);
     -webkit-mask-image: var(--icon-info);
-    
+
 }
 
 i.list::after {
-    
+
     mask-image: var(--icon-list);
     -webkit-mask-image: var(--icon-list);
-    
+
 }
 
 i.new::after {
-    
+
     mask-image: var(--icon-new);
     -webkit-mask-image: var(--icon-new);
-    
+
 }
 
 i.arrow::after {
