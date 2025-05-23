@@ -1,10 +1,8 @@
-/* 
+/* ![small](image.jpg)  */
+/* use alt text as css classes */
+/* useful for images */
 
-alt text in images can be used as classes. 
-useful for markdown images 
-![small](image.jpg) 
 
-*/
 img[alt *='small' i] {
     height: auto;
     width: 200px;
@@ -13,4 +11,21 @@ img[alt *='small' i] {
 img[alt *='center' i] {
     margin-left: 25%;
     margin-right: 25%;
+}
+.cover,
+[alt *='cover' i] {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+[alt *='square' i] {
+    object-fit: cover;
+    /* height: 150px;
+    width: 150px; */
+    aspect-ratio: 1/1;
+}
+
+[alt *='bottom' i] {
+    object-position: bottom;
 }
