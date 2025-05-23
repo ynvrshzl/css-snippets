@@ -23,7 +23,7 @@ i::after {
     display: inline-block;
     height: 1em;
     width: 1em;
-    vertical-align: bottom;
+    vertical-align: middle;
     background-color: var(--color-text);
     -webkit-mask-size: contain;
     mask-size: contain;
