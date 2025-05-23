@@ -49,6 +49,11 @@ table.grid>tbody>tr>td {
     padding: var(--grid-padding);
 }
 
+table.grid a {
+    display: block;
+    width: 100%;
+}
+
 /* everything after the second title */
 /* table.grid>tbody>tr>td:not(:first-child):not(:nth-child(2)) {
     font-size: 0.75em;
@@ -67,4 +72,35 @@ table.grid>tbody>tr>td {
 .grid-images-landscape
 {
     --grid-image-aspect-ratio: 16/9;
+}
+
+
+
+table.grid-images-as-covers>tbody>tr {
+    position: relative;
+}
+
+table.grid-images-as-covers>tbody>tr>td:not(:first-child) {
+    display: none;
+    position: absolute;
+
+
+    /* opacity: 0; */
+}
+
+table.grid-images-as-covers>tbody>tr:hover td:not(:first-child) {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+        /* opacity: 1; */
+}
+
+table.grid-images-as-covers>tbody>tr:hover td:has(> img) {
+    transition: filter .2s linear;
+}
+
+table.grid-images-as-covers>tbody>tr:hover td:has(> img) {
+    filter: brightness(0.2)
+        /* opacity: 1; */
 }
