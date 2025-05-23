@@ -37,23 +37,28 @@ i::after {
 }
 
 i.image::after {
-    -webkit-mask-image: var(--image-icon);
+    -webkit-mask-image: var(--icon-image);
     mask-image: var(--image-icon);
+}
+i.house::after {
+    -webkit-mask-image: var(--icon-house);
+    mask-image: var(--icon-house);
 }
 
 i.layout::after {
-    -webkit-mask-image: var(--layout-icon);
-    mask-image: var(--layout-icon);
+    -webkit-mask-image: var(--icon-layout);
+    mask-image: var(--icon-layout);
 }
 
+i.cog::after,
 i.settings::after {
-    -webkit-mask-image: var(--cog-icon);
-    mask-image: var(--cog-icon);
+    -webkit-mask-image: var(--icon-cog);
+    mask-image: var(--icon-cog);
 }
 
 i.info::after {
-    -webkit-mask-image: var(--info-icon);
-    mask-image: var(--info-icon);
+    -webkit-mask-image: var(--icon-info);
+    mask-image: var(--icon-info);
 }
 
 i.library::after {
@@ -61,10 +66,7 @@ i.library::after {
     mask-image: var(--icon-library);
 }
 
-i.cog::after {
-    -webkit-mask-image: var(--cog-icon);
-    mask-image: var(--cog-icon);
-}
+
 
 i.globe::after {
     -webkit-mask-image: var(--icon-globe);
@@ -132,8 +134,6 @@ i.new::after {
 }
 
 i.arrow::after {
-    
     mask-image: var(--icon-arrow);
     -webkit-mask-image: var(--icon-arrow);
-    
 }
