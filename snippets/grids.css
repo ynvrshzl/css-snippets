@@ -6,6 +6,10 @@
 
 */
 
+table.grid
+{
+    width: 100%;
+}
 
 :root {
     --grid-roundness: 10px;
