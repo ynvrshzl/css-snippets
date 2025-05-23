@@ -1,0 +1,16 @@
+/* 
+
+alt text in images can be used as classes. 
+useful for markdown images 
+![small](image.jpg) 
+
+*/
+img[alt *='small' i] {
+    height: auto;
+    width: 200px;
+}
+
+img[alt *='center' i] {
+    margin-left: 25%;
+    margin-right: 25%;
+}
