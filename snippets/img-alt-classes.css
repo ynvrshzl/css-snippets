@@ -3,6 +3,7 @@
 /* useful for images */
 
 
+
 img[alt *='small' i] {
     height: auto;
     width: 200px;

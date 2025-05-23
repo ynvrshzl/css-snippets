@@ -1,3 +1,14 @@
+button {
+
+    background-color: transparent;
+    border: 0px;
+    border-radius: 25%;
+
+}
+
+button:hover {
+    background-color: color-mix(in srgb, var(--color-text) 15%, transparent);
+}
 button:focus
 {
     outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
