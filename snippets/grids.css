@@ -90,24 +90,26 @@ table.grid-images-as-covers a::before
     /* content: "";
     display: none; */
 }
-
+/* keep each row relative, so we can bind cells to it's size */
 table.grid-images-as-covers>tbody>tr {
     position: relative;
 }
 
+/* the link itself */
 table.grid-images-as-covers>tbody>tr>td:nth-child(2n) {
-    display: none;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     text-align: center;
-    /* opacity: 0; */
+    opacity: 0;
 }
-
-table.grid-images-as-covers>tbody>tr:hover td:not(:first-child) {
-    display: block;
+/* everything that is not the */
+table.grid-images-as-covers>tbody>tr:hover td:nth-child(2n) 
+{
+    opacity: 1;
 }
 
 table.grid-images-as-covers>tbody>tr>td:nth-child(3n) {
