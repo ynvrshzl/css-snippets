@@ -44,7 +44,7 @@ i::after {
 
 i.image::after {
     -webkit-mask-image: var(--icon-image);
-    mask-image: var(--image-icon);
+    mask-image: var(--icon-image);
 }
 
 i.home::after {
