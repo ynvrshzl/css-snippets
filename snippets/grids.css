@@ -77,40 +77,53 @@ table.grid a {
 {
     --grid-image-aspect-ratio: 16/9;
 }
+/*
+images-as-covers would require this structure:
+<tr>(1) contains the image
+<tr>(2) contains the link
+<tr>(3) contains side content (like icons, or description) */
 
 /* reset any icons on links */
 table.grid-images-as-covers a::after,
 table.grid-images-as-covers a::before
 {
-    content: "";
-    display: none;
+    /* content: "";
+    display: none; */
 }
 
 table.grid-images-as-covers>tbody>tr {
     position: relative;
 }
 
-table.grid-images-as-covers>tbody>tr>td:not(:first-child) {
+table.grid-images-as-covers>tbody>tr>td:nth-child(2n) {
     display: none;
     position: absolute;
-
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
     /* opacity: 0; */
 }
 
 table.grid-images-as-covers>tbody>tr:hover td:not(:first-child) {
     display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-        /* opacity: 1; */
 }
+
+table.grid-images-as-covers>tbody>tr>td:nth-child(3n) {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    /* opacity: 0; */
+}
+
 
 table.grid-images-as-covers>tbody>tr:hover td:has(> img) {
     transition: filter .2s linear;
 }
 
 table.grid-images-as-covers>tbody>tr:hover td:has(> img) {
-    filter: brightness(0.2)
-        /* opacity: 1; */
+    filter: brightness(0.2) grayscale(1);
+    /* opacity: 1; */
 }
