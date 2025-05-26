@@ -37,7 +37,12 @@
     
 }
 
+i
+{
+    pointer-events: none;
+}
 i::after {
+    pointer-events: none;
     content: " ";
     display: inline-block;
     height: 1em;
