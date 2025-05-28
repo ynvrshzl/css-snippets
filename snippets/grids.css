@@ -15,7 +15,7 @@ table.grid
     --grid-roundness: 10px;
     --grid-padding: 5px;
     --grid-margins: 0px;
-    --grid-min-width: 250px;
+    --grid-width: 250px;
     --grid-image-aspect-ratio: auto;
 }
 
@@ -23,7 +23,7 @@ table.grid
 table.grid tbody {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-width), 1fr));
     grid-column-gap: var(--grid-margins);
     grid-row-gap: var(--grid-margins);
 
@@ -32,6 +32,7 @@ table.grid tbody {
 
 /* table rows */
 table.grid>tbody>tr {
+    width: --grid-width;
     display: flex;
     flex-direction: column;
     margin: var(--grid-margins);
